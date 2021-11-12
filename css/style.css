@@ -10,7 +10,7 @@
 
 body{
     background-color: var(--bg-color);
-    color:#EEEEEE;
+    color:var(--text-color)
 }
 
 .jumbotron {
@@ -29,5 +29,18 @@ body{
     color: var(--text-color)
 }
 .about_social-icon:hover {
+    color: var(--icon-color);
+}
+
+#portfolio {
+    background-color: var(--bg-color-secondary);
+}
+
+.portfolio__link-name {
+    color:var(--bg-color);
+    text-decoration:none;
+  }
+
+.portfolio__link-name:hover {
     color: var(--icon-color);
 }
