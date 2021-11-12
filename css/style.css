@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
 :root {
+    --body-font: "Poppins", sans-serif;
     --icon-color: #00ADB5;
     --bg-color: #393E46;
     --bg-color-secondary: #222831;
@@ -11,7 +14,8 @@
 
 body{
     background-color: var(--bg-color);
-    color:var(--text-color)
+    color:var(--text-color);
+    font-family: var(--body-font);
 }
 
 .nav-item a{
@@ -58,12 +62,10 @@ section {
     color: var(--icon-color);
 }
 
-
 #blog {
-    width: 100%;
-    float: left;
     background-color: var(--bg-color);
 }
+
 .blog-post h2 {
     font-size: 20px;
 }
@@ -99,7 +101,7 @@ section {
     color: var(--text-color);
 }
 
-#team{
+#ourteam{
     background-color: var(--bg-color-secondary);
 }
 
