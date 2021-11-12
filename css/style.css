@@ -1,4 +1,25 @@
+:root {
+    --icon-color: #00ADB5;
+    --bg-color: #393E46;
+    --text-color: #EEEEEE;
+    --mb-1: 0.5rem;
+}
+
 body{
-    background-color: #393E46;
+    background-color: var(--bg-color);
     color:#EEEEEE;
+}
+
+.about_social{
+    color: var(--text-color)
+}
+
+.about_social-icon {
+    font-size: 1.4rem;
+    font-weight: 100;
+    margin: 0 var(--mb-1);
+    color: var(--text-color)
+}
+.about_social-icon:hover {
+    color: var(--icon-color);
 }
