@@ -1,8 +1,11 @@
 :root {
     --icon-color: #00ADB5;
     --bg-color: #393E46;
+    --bg-color-secondary: #222831;
     --text-color: #EEEEEE;
     --mb-1: 0.5rem;
+    --pt-6: 6rem;
+    --icon-size: 1.4rem;
 }
 
 body{
@@ -10,12 +13,17 @@ body{
     color:#EEEEEE;
 }
 
+.jumbotron {
+    padding-top: var(--pt-6);
+    background-color: var(--bg-color-secondary);
+}
+
 .about_social{
     color: var(--text-color)
 }
 
 .about_social-icon {
-    font-size: 1.4rem;
+    font-size:var(--icon-size);
     font-weight: 100;
     margin: 0 var(--mb-1);
     color: var(--text-color)
